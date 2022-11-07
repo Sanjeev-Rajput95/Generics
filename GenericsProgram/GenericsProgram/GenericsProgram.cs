@@ -4,12 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Generics
 {
-    public class GenericsProgram
+    public class PrintArray<T>
     {
-        public static void toPrint<T>(T[] inputArray)
+        //public static void toPrint<T>(T[] inputArray)
+        public T[] inputArray;
+
+        public PrintArray(T[] inputArray)
         {
+            this.inputArray = inputArray;
+        }
+
+        public void toPrint()
+        {
+            
             foreach (var element in inputArray)
             {
                 System.Console.WriteLine(element);

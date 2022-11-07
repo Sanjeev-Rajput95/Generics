@@ -11,9 +11,11 @@
             double[] doubleArray = { 1.1, 2.2, 3.3, 4.4 };
             char[] charArray = { 'H', 'S', 'E', 'L', 'L', 'O' };
 
-            GenericsProgram.toPrint(intArray);
-            GenericsProgram.toPrint(doubleArray);
-            GenericsProgram.toPrint(charArray);
+            new PrintArray<int>(intArray).toPrint();
+            new PrintArray<double>(doubleArray).toPrint();
+            new PrintArray<char>(charArray).toPrint();
+
+        
         }
     }
 }
