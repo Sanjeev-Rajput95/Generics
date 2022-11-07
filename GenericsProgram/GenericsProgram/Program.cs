@@ -8,7 +8,7 @@
 
 
 
-            int output = MaxNumberCheck.MaxIntegerNumber(8347, 8778, 884);
+            double output = MaxNumberCheck.MaxIntegerNumber(33.2, 23.4, 12.5);
             Console.WriteLine("\nMax integer number is: " + output);
 
         }

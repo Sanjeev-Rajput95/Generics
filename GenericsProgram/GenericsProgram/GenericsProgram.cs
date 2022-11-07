@@ -8,7 +8,7 @@ namespace Generics
 {
     public class MaxNumberCheck
     {
-        public static int MaxIntegerNumber(int val1, int val2, int val3)
+        public static double MaxIntegerNumber(double val1, double val2, double val3)
         {
             if (val1.CompareTo(val2) > 0 && val1.CompareTo(val3) > 0 || val1.CompareTo(val2) >= 0 && val1.CompareTo(val3) > 0 || val1.CompareTo(val2) > 0 && val1.CompareTo(val3) >= 0)
             {
